@@ -1,4 +1,4 @@
-## tareasPendientes
+## Tareas Pendientes
 ### Descripción
 Lista de tareas pendientes
 ### Uso
