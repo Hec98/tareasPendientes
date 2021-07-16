@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Hec98/tareasPendientes/issues"
   },
-  "homepage": "https://github.com/Hec98/tareasPendientes#readme"
+  "homepage": "https://github.com/Hec98/tareasPendientes#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
