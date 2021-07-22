@@ -4,6 +4,8 @@ const {
   pausa,
   leerInput
 } = require('./helpers/inquirer');
+const { guardarDB } = require('./helpers/guardarArchivo')
+
 const Tareas = require('./models/tareas')
 
 const main = async() => {
@@ -21,9 +23,10 @@ const main = async() => {
       case '2':
         console.log(tareas.listadoArr);
       break;
-
     }
-
+    
+    // guardarDB(tareas.listadoArr);
+    
     await pausa();
   } while(opt !== '0');
 }
