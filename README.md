@@ -3,9 +3,6 @@
 Lista de tareas pendientes
 ### Uso
 ```
-Accion
-```
-```
-Accion
+node app.js
 ```
 [![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/Hec98) 
