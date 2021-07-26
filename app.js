@@ -3,7 +3,8 @@ const {
   inquirerMenu, 
   pausa,
   leerInput,
-  listadoTareasBorrar
+  listadoTareasBorrar,
+  confirmar
 } = require('./helpers/inquirer');
 const { guardarDB, leerDB } = require('./helpers/guardarArchivo')
 
@@ -38,7 +39,11 @@ const main = async() => {
       break;
       case '6':
         const id = await listadoTareasBorrar(tareas.listadoArr);
-        console.log({id});
+        const ok = await confirmar('¿Está seguro?');
+        if(id !== '0' && ok) {
+          tareas.borrarTarea(id);
+          console.log('Tarea borrada');
+        }
       break;
 
     }
