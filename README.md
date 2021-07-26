@@ -1,6 +1,6 @@
 ## Tareas Pendientes
 ### Descripción
-Lista de tareas pendientes
+Aplicación interactiva de consola para listar tareas pendientes como completadas
 ### Uso
 ```
 node app.js
